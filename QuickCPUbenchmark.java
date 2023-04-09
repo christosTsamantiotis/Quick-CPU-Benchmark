@@ -2,7 +2,7 @@ class QuickCPUbenchmark{
 		
 		public static void main (String[] args){
 			
-			System.out.println("This is a quick program which measures the time needed to accrue interest on a set number of pseudorandomly generated acoount values for a set amount of periods(years). It scales greatly among physical Performance and Efficiency Cores and uses SMT or HT well. The first argument sets the number of accounts(Recommended 10000000), the second the interest rate, the third the amount of threads to use and the fourth the number of periods(years) to calculate for. The more threads the faster, however speed bumps are determined by your CPUs physical cores. Setting more can hurt performance and may starve other background apps on your PC of resources.");
+			System.out.println("This is a quick program which measures the time needed to accrue interest on a set number of pseudorandomly generated account values for a set amount of periods(years). It scales greatly among physical Performance and Efficiency Cores and uses SMT or HT well. The first argument sets the number of accounts(Recommended 10000000), the second the interest rate, the third the amount of threads to use and the fourth the number of periods(years) to calculate for. The more threads the faster, however speed bumps are determined by your CPUs physical cores. Setting more can hurt performance and may starve other background apps on your PC of resources.");
 			
 		
 			int numberOfAccounts = Integer.parseInt(args[0]);  // Recommended 10000000
